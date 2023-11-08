@@ -1,0 +1,16 @@
+[editor.statusline]
+right = ["diagnostics", "selections", "register", "position", "file-encoding", "file-line-ending", "file-type"]
+
+[keys.normal]
+C-n = ":new"
+C-space = ":write"
+backspace = ":write"
+esc = ":write"
+
+[keys.normal.ret]
+i = ":toggle indent-guides.render"
+s = ":toggle whitespace.render all none"
+w = ":toggle soft-wrap.enable"
+
+[keys.insert]
+C-space = "normal_mode"
