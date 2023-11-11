@@ -1,11 +1,12 @@
-[editor.statusline]
-right = ["diagnostics", "selections", "register", "position", "file-encoding", "file-line-ending", "file-type"]
+[editor]
+indent-guides.render = true
+statusline.right = ["diagnostics", "selections", "register", "position", "file-encoding", "file-line-ending", "file-type"]
 
 [keys.normal]
-C-n = ":new"
-C-space = ":write"
 backspace = ":write"
 esc = ":write"
+C-n = ":new"
+C-space = ":write"
 
 [keys.normal.ret]
 i = ":toggle indent-guides.render"
