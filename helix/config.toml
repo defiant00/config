@@ -1,5 +1,6 @@
 [editor]
 indent-guides.render = true
+line-number = "relative"
 statusline.right = ["diagnostics", "selections", "register", "position", "file-encoding", "file-line-ending", "file-type"]
 
 [keys.normal]
@@ -10,6 +11,7 @@ C-space = ":write"
 
 [keys.normal.ret]
 i = ":toggle indent-guides.render"
+l = ":toggle line-number absolute relative"
 s = ":toggle whitespace.render all none"
 w = ":toggle soft-wrap.enable"
 
