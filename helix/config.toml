@@ -1,6 +1,6 @@
 [editor]
 line-number = "relative"
-rulers = [128]
+rulers = [100, 128]
 statusline.right = ["diagnostics", "selections", "register", "position", "file-encoding", "file-line-ending", "file-type"]
 
 [keys.normal]
