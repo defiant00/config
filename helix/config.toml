@@ -12,7 +12,8 @@ C-space = ":write"
 [keys.normal.ret]
 i = ":toggle indent-guides.render"
 l = ":toggle line-number absolute relative"
-r = ":reflow 100"
+R = ":reflow 100"
+r = "@mip<ret>R;"
 s = ":toggle whitespace.render all none"
 w = ":toggle soft-wrap.enable"
 
